@@ -123,10 +123,10 @@ button:hover {
 
 @media only screen and (min-width: 768px) {
   .content-margin {
-    margin-top: 50% !important;
+    margin-top: 55% !important;
   }
   .content {
-    margin-top: 30%;
+    margin-top: 27%;
   }
 
   .magenta {
@@ -136,10 +136,10 @@ button:hover {
 
 @media only screen and (min-width: 1024px) {
   .content-margin {
-    margin-top: 45% !important;
+    margin-top: 55% !important;
   }
   .content {
-    margin-top: 25%;
+    margin-top: 22%;
   }
   .magenta {
     margin-top: -20%;
