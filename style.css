@@ -170,8 +170,20 @@ button:hover {
 }
 
 @media only screen and (max-width: 375px) {
+  p {
+    padding-bottom: 10px;
+  }
+
+  .main {
+    margin-top: 25px;
+  }
+
   .content {
     margin-top: 47%;
+  }
+
+  .button {
+    padding: 10px 85px;
   }
 
   .magenta {
