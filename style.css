@@ -53,12 +53,13 @@ button:hover {
 .main {
   margin-top: 60px;
   margin-bottom: 0px;
-  font-family: 'Academy Engraved LET', sans-serif;
+  /* font-family: 'Academy Engraved LET', sans-serif; */
+  font-family: 'Acme', sans-serif;
 }
 
 .main-font {
-  color: #683034;
-  font-weight: bold;
+  color: #f3eeddf0;
+  font-weight: 500;
 }
 
 .content {
@@ -112,7 +113,7 @@ button:hover {
 .blues {
   margin-top: -60%;
   text-align: end;
-  margin-right: 15%;
+  margin-right: 10%;
 }
 
 .magenta {
@@ -171,7 +172,7 @@ button:hover {
 
 @media only screen and (width: 412px) {
   .magenta {
-    margin-top: -5%;
+    margin-top: -3%;
   }
   .content-margin {
     margin-top: 40% !important;
