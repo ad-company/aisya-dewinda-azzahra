@@ -10,6 +10,7 @@ html {
 body {
   background-color: #F3EEDD !important;
   width: auto;
+  max-width: 425px;
 }
 
 p {
@@ -58,6 +59,7 @@ button:hover {
 .content {
   position: absolute;
   margin-top: 50%;
+  max-width: 425px;
 }
 
 .image-1 {
@@ -116,6 +118,31 @@ button:hover {
 
   .magenta {
     margin-top: 15%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .content-margin {
+    margin-top: 50% !important;
+  }
+  .content {
+    margin-top: 30%;
+  }
+
+  .magenta {
+    margin-top: -35%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .content-margin {
+    margin-top: 45% !important;
+  }
+  .content {
+    margin-top: 25%;
+  }
+  .magenta {
+    margin-top: -30%;
   }
 }
 
