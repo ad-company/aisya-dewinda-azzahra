@@ -16,9 +16,15 @@ body {
 p {
   position: relative;
   text-align: center;
-  font-size: 48px;
-  padding-bottom: 55px;
+  font-size: 52px;
+  padding-bottom: 65px;
   margin-right: 15%;
+}
+
+.main-font br {
+  content: "";
+  display: block;
+  margin: -15px 0px;
 }
 
 button {
@@ -83,7 +89,7 @@ button:hover {
 }
 
 .image-3 {
-  margin-top: -6rem;
+  margin-top: -7rem;
   position: relative;
 }
 
