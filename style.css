@@ -32,7 +32,7 @@ button {
 }
 
 button:hover {
-  background-color: #c65981;
+  background-color: #c65981 !important;
 }
 
 .content-margin {
@@ -60,6 +60,8 @@ button:hover {
   position: absolute;
   margin-top: 50%;
   max-width: 425px;
+  font-weight: bolder;
+  color: black;
 }
 
 .image-1 {
@@ -111,6 +113,10 @@ button:hover {
   margin-top: -10%;
 }
 
+#cover {
+  margin-bottom: 25%;
+}
+
 @media only screen and (min-width: 390px) {
   .content {
     margin-top: 50%;
@@ -152,6 +158,12 @@ button:hover {
   }
   .magenta {
     margin-top: -20%;
+  }
+}
+
+@media only screen and (width: 412px) {
+  #cover {
+    margin-bottom: 30%;
   }
 }
 
